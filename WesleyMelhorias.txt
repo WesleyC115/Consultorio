@@ -1,0 +1,14 @@
+	Oque necessita melhorar
+
+-Pastas não está na clean arch;
+-Só uma page com consulta e sem estar funfando o medico e paciente;
+-não esta tendo a comunicação do front e do back; 
+-n esta retornando o valor;
+-No Swagger esta sem valor no CURL
+-Seu front só esta "querendo" os valores de endereço e data vc precisaria dos outros valores que estão no seu back-end
+
+	Dicas de melhorias 
+- no CORS o bom é colocar uma url certinha pra n haver perigo de segurança
+- Console.Log / verificação de code tanto no front ou no back end
+
+TEM COMENTARIOS NOS CODIGOS TB
