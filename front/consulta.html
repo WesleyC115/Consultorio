@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Agendar Consulta</title>
+    <script src="js/consulta.js"></script>
+    <link rel="stylesheet" href="css/consulta.css">
+</head>
+<body>
+
+    <h2>Agendar Consulta</h2>
+    
+    <form id="form-consulta">
+        <label for="endereco">Endereço da Consulta:</label>
+        <input type="text" id="endereco" required>
+    
+        <label for="data">Data e Horário:</label>
+        <input type="datetime-local" id="data" required>
+    
+        <button type="submit">Agendar</button>
+    </form>
+    
+    <div id="mensagem"></div>
+
+</body>
+</html>
