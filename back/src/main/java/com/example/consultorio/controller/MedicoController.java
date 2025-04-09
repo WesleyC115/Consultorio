@@ -23,6 +23,7 @@ public class MedicoController {
     }
 
     // GET: buscar médico por ID
+    
     @GetMapping("/{id}")
     public ResponseEntity<Medico> getById(@PathVariable Long id) {
         Optional<Medico> medico = medicoRepository.findById(id);

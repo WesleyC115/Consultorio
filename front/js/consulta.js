@@ -4,7 +4,11 @@ document.getElementById('form-consulta').addEventListener('submit', async functi
     const endereco = document.getElementById('endereco').value;
     const data = document.getElementById('data').value;
 
-    try {
+
+
+    
+    try {                       //aqui abaixo vc tinha que ter colocado o localhost pra iniciar a conexão 
+
         const response = await fetch('/consultas', {
             method: 'POST',
             headers: {
@@ -18,7 +22,8 @@ document.getElementById('form-consulta').addEventListener('submit', async functi
 
         const mensagem = document.getElementById('mensagem');
 
-        if (response.ok) {
+        if (response.ok) { //aqui criar uma classe ao inves de colocar o css e o js tudo junto é uma pratica melhor 
+                            // mas tb ficou muito bom a sua lógica do try catch             
             mensagem.innerHTML = "<p style='color: green;'>Consulta agendada com sucesso!</p>";
             document.getElementById('form-consulta').reset();
         } else {
