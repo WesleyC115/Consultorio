@@ -18,3 +18,4 @@ public class WebConfig implements WebMvcConfigurer {
 
     // Você pode adicionar mais configurações aqui se quiser (ex: interceptors, converters etc.)
 }
+

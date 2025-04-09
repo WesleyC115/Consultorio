@@ -25,6 +25,8 @@ document.getElementById('form-consulta').addEventListener('submit', async functi
             mensagem.innerHTML = "<p style='color: red;'>Erro ao agendar consulta.</p>";
         }
 
+
+        
     } catch (error) {
         document.getElementById('mensagem').innerHTML = "<p style='color: red;'>Erro de rede: " + error.message + "</p>";
     }
